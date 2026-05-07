@@ -1,3 +1,8 @@
+import collections
+import collections.abc
+collections.Mapping = collections.abc.Mapping
+collections.Iterable = collections.abc.Iterable
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
