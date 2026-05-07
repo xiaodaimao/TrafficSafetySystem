@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from collections import defaultdict, deque
+from collections.abc import defaultdict, deque
 from typing import Dict, List, Optional, Set, Tuple
 import os
 
