@@ -2,6 +2,11 @@ import collections
 import collections.abc
 collections.Mapping = collections.abc.Mapping
 collections.Iterable = collections.abc.Iterable
+collections.MutableMapping = collections.abc.MutableMapping
+collections.Sequence = collections.abc.Sequence
+collections.Callable = collections.abc.Callable
+collections.Set = collections.abc.Set
+collections.MutableSet = collections.abc.MutableSet
 
 import torch
 import torch.nn as nn
