@@ -4,4 +4,5 @@ pyvis
 networkx
 torch
 plotly
+numpy
 dgl
