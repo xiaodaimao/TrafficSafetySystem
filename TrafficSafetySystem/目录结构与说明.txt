@@ -1,0 +1,22 @@
+TrafficRiskSystem/
+├── .streamlit/
+│   └── config.toml         # 配置主题颜色、页面布局等
+├── data/                   # 存放所有核心数据文件（规范化命名后）
+│   ├── scene_metrics.xlsx  # 原 A07场景+RiskLevel...
+│   ├── scene_elements.xlsx # 原 C01-D场景要素表.xlsx
+│   ├── kg_triples.txt      # 原 C03-1三元组_id.txt
+│   ├── kg_entities.json    # 原 C03-1entity2id.txt (建议转为json)
+│   ├── kg_relations.json   # 原 C03-1relation2id.txt
+│   ├── model_weight.pth    # 原 D01-1model_state.pth
+│   ├── kg_graph.bin        # 原 C04-1graph.bin
+│   ├── cause_kg.json       # 原 graph_up_entities_补全...json
+│   └── cause_data.xlsx     # 原 DATA-DATA.xlsx
+├── static/                 # 存放静态资源
+│   ├── full_graph.html     # 全局全量知识图谱 HTML
+│   └── custom.css          # 用于实现右下角悬浮窗等样式的 CSS
+├── utils/                  # 存放推理逻辑、图谱处理的函数
+│   ├── inference.py        # 封装风险推理逻辑（含均值填充逻辑）
+│   └── visualization.py    # 封装图谱高亮、HTML 渲染函数
+├── main_app.py             # 主界面入口（包含底部导航）
+├── page_risk.py            # 功能一：场景风险推理界面
+└── page_cause.py           # 功能二：致因链检索界面（复用 youhua2.py 核心逻辑）

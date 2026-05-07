@@ -1,0 +1,1297 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "临时车道管制",
+      "layer": "临时管制"
+    },
+    {
+      "id": "事故处理",
+      "layer": "临时管制"
+    },
+    {
+      "id": "施工",
+      "layer": "临时管制"
+    },
+    {
+      "id": "道路限行",
+      "layer": "临时管制"
+    },
+    {
+      "id": "侧翻",
+      "layer": "事故类型"
+    },
+    {
+      "id": "侧面碰撞",
+      "layer": "事故类型"
+    },
+    {
+      "id": "刮蹭",
+      "layer": "事故类型"
+    },
+    {
+      "id": "撞固定物",
+      "layer": "事故类型"
+    },
+    {
+      "id": "正面碰撞",
+      "layer": "事故类型"
+    },
+    {
+      "id": "碰撞非机动车/行人",
+      "layer": "事故类型"
+    },
+    {
+      "id": "追尾",
+      "layer": "事故类型"
+    },
+    {
+      "id": "急变道切入",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "未按照车道行驶",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "紧急制动",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "行人/非机动车横穿马路",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "车辆失控",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "违规变道",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "违规转弯",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "闯红灯",
+      "layer": "交互对象状态"
+    },
+    {
+      "id": "前车",
+      "layer": "交互对象类型"
+    },
+    {
+      "id": "右前方车辆",
+      "layer": "交互对象类型"
+    },
+    {
+      "id": "左前方车辆",
+      "layer": "交互对象类型"
+    },
+    {
+      "id": "无交互对象",
+      "layer": "交互对象类型"
+    },
+    {
+      "id": "行人/非机动车",
+      "layer": "交互对象类型"
+    },
+    {
+      "id": "拥堵",
+      "layer": "交通流状态"
+    },
+    {
+      "id": "正常交通流",
+      "layer": "交通流状态"
+    },
+    {
+      "id": "无信号控制",
+      "layer": "信号控制条件"
+    },
+    {
+      "id": "有信号控制",
+      "layer": "信号控制条件"
+    },
+    {
+      "id": "夜间",
+      "layer": "光照条件"
+    },
+    {
+      "id": "白天",
+      "layer": "光照条件"
+    },
+    {
+      "id": "其他线形",
+      "layer": "几何线形"
+    },
+    {
+      "id": "曲线段",
+      "layer": "几何线形"
+    },
+    {
+      "id": "直线段",
+      "layer": "几何线形"
+    },
+    {
+      "id": "冰雪",
+      "layer": "天气状况"
+    },
+    {
+      "id": "暴雨",
+      "layer": "天气状况"
+    },
+    {
+      "id": "沙尘",
+      "layer": "天气状况"
+    },
+    {
+      "id": "阴雨",
+      "layer": "天气状况"
+    },
+    {
+      "id": "低速行驶",
+      "layer": "本车状态"
+    },
+    {
+      "id": "偏离车道",
+      "layer": "本车状态"
+    },
+    {
+      "id": "响应不及时",
+      "layer": "本车状态"
+    },
+    {
+      "id": "未礼让行人/非机动车",
+      "layer": "本车状态"
+    },
+    {
+      "id": "超速行驶",
+      "layer": "本车状态"
+    },
+    {
+      "id": "跟车距离过近",
+      "layer": "本车状态"
+    },
+    {
+      "id": "单车道",
+      "layer": "车道数"
+    },
+    {
+      "id": "双车道",
+      "layer": "车道数"
+    },
+    {
+      "id": "多车道",
+      "layer": "车道数"
+    },
+    {
+      "id": "存在视线遮挡物",
+      "layer": "道路几何条件"
+    },
+    {
+      "id": "路面存在抛洒物等障碍物",
+      "layer": "道路几何条件"
+    },
+    {
+      "id": "道路宽度不足",
+      "layer": "道路几何条件"
+    },
+    {
+      "id": "上/下匝道",
+      "layer": "道路类型"
+    },
+    {
+      "id": "交织区",
+      "layer": "道路类型"
+    },
+    {
+      "id": "公路",
+      "layer": "道路类型"
+    },
+    {
+      "id": "其他道路",
+      "layer": "道路类型"
+    },
+    {
+      "id": "城市交叉口",
+      "layer": "道路类型"
+    },
+    {
+      "id": "城市路段",
+      "layer": "道路类型"
+    },
+    {
+      "id": "快速路",
+      "layer": "道路类型"
+    },
+    {
+      "id": "桥梁",
+      "layer": "道路类型"
+    },
+    {
+      "id": "高速公路",
+      "layer": "道路类型"
+    },
+    {
+      "id": "存在防撞护栏",
+      "layer": "防撞护栏条件"
+    },
+    {
+      "id": "缺少防撞护栏",
+      "layer": "防撞护栏条件"
+    },
+    {
+      "id": "无中央隔离带",
+      "layer": "隔离带条件"
+    },
+    {
+      "id": "有中央隔离带",
+      "layer": "隔离带条件"
+    }
+  ],
+  "links": [
+    {
+      "source": "道路宽度不足",
+      "target": "临时车道管制",
+      "reason": "促使"
+    },
+    {
+      "source": "正常交通流",
+      "target": "紧急制动",
+      "reason": "减轻"
+    },
+    {
+      "source": "阴雨",
+      "target": "紧急制动",
+      "reason": "加剧"
+    },
+    {
+      "source": "暴雨",
+      "target": "紧急制动",
+      "reason": "加剧"
+    },
+    {
+      "source": "冰雪",
+      "target": "紧急制动",
+      "reason": "加剧"
+    },
+    {
+      "source": "沙尘",
+      "target": "紧急制动",
+      "reason": "加剧"
+    },
+    {
+      "source": "无交互对象",
+      "target": "正常交通流",
+      "reason": "影响"
+    },
+    {
+      "source": "紧急制动",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "道路宽度不足",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "施工",
+      "target": "道路宽度不足",
+      "reason": "导致"
+    },
+    {
+      "source": "超速行驶",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "超速行驶",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "超速行驶",
+      "target": "侧翻",
+      "reason": "导致"
+    },
+    {
+      "source": "暴雨",
+      "target": "事故处理",
+      "reason": "促使"
+    },
+    {
+      "source": "冰雪",
+      "target": "事故处理",
+      "reason": "促使"
+    },
+    {
+      "source": "冰雪",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "暴雨",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "沙尘",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "道路宽度不足",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "临时车道管制",
+      "target": "拥堵",
+      "reason": "导致"
+    },
+    {
+      "source": "事故处理",
+      "target": "拥堵",
+      "reason": "导致"
+    },
+    {
+      "source": "施工",
+      "target": "拥堵",
+      "reason": "导致"
+    },
+    {
+      "source": "道路限行",
+      "target": "拥堵",
+      "reason": "导致"
+    },
+    {
+      "source": "临时车道管制",
+      "target": "违规变道",
+      "reason": "导致"
+    },
+    {
+      "source": "临时车道管制",
+      "target": "急变道切入",
+      "reason": "导致"
+    },
+    {
+      "source": "事故处理",
+      "target": "紧急制动",
+      "reason": "导致"
+    },
+    {
+      "source": "事故处理",
+      "target": "急变道切入",
+      "reason": "导致"
+    },
+    {
+      "source": "施工",
+      "target": "急变道切入",
+      "reason": "导致"
+    },
+    {
+      "source": "施工",
+      "target": "违规变道",
+      "reason": "导致"
+    },
+    {
+      "source": "道路限行",
+      "target": "违规变道",
+      "reason": "导致"
+    },
+    {
+      "source": "阴雨",
+      "target": "拥堵",
+      "reason": "影响"
+    },
+    {
+      "source": "暴雨",
+      "target": "拥堵",
+      "reason": "影响"
+    },
+    {
+      "source": "冰雪",
+      "target": "拥堵",
+      "reason": "影响"
+    },
+    {
+      "source": "沙尘",
+      "target": "拥堵",
+      "reason": "影响"
+    },
+    {
+      "source": "阴雨",
+      "target": "存在视线遮挡物",
+      "reason": "导致"
+    },
+    {
+      "source": "暴雨",
+      "target": "存在视线遮挡物",
+      "reason": "导致"
+    },
+    {
+      "source": "沙尘",
+      "target": "存在视线遮挡物",
+      "reason": "导致"
+    },
+    {
+      "source": "暴雨",
+      "target": "响应不及时",
+      "reason": "导致"
+    },
+    {
+      "source": "沙尘",
+      "target": "响应不及时",
+      "reason": "导致"
+    },
+    {
+      "source": "阴雨",
+      "target": "响应不及时",
+      "reason": "导致"
+    },
+    {
+      "source": "冰雪",
+      "target": "车辆失控",
+      "reason": "导致"
+    },
+    {
+      "source": "冰雪",
+      "target": "偏离车道",
+      "reason": "导致"
+    },
+    {
+      "source": "道路宽度不足",
+      "target": "违规变道",
+      "reason": "导致"
+    },
+    {
+      "source": "道路宽度不足",
+      "target": "急变道切入",
+      "reason": "导致"
+    },
+    {
+      "source": "存在视线遮挡物",
+      "target": "响应不及时",
+      "reason": "导致"
+    },
+    {
+      "source": "路面存在抛洒物等障碍物",
+      "target": "车辆失控",
+      "reason": "导致"
+    },
+    {
+      "source": "路面存在抛洒物等障碍物",
+      "target": "紧急制动",
+      "reason": "导致"
+    },
+    {
+      "source": "拥堵",
+      "target": "跟车距离过近",
+      "reason": "导致"
+    },
+    {
+      "source": "拥堵",
+      "target": "紧急制动",
+      "reason": "导致"
+    },
+    {
+      "source": "拥堵",
+      "target": "急变道切入",
+      "reason": "导致"
+    },
+    {
+      "source": "拥堵",
+      "target": "前车",
+      "reason": "伴随"
+    },
+    {
+      "source": "拥堵",
+      "target": "左前方车辆",
+      "reason": "伴随"
+    },
+    {
+      "source": "拥堵",
+      "target": "右前方车辆",
+      "reason": "伴随"
+    },
+    {
+      "source": "正常交通流",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "正常交通流",
+      "target": "前车",
+      "reason": "伴随"
+    },
+    {
+      "source": "前车",
+      "target": "紧急制动",
+      "reason": "可能"
+    },
+    {
+      "source": "前车",
+      "target": "急变道切入",
+      "reason": "可能"
+    },
+    {
+      "source": "左前方车辆",
+      "target": "急变道切入",
+      "reason": "可能"
+    },
+    {
+      "source": "右前方车辆",
+      "target": "急变道切入",
+      "reason": "可能"
+    },
+    {
+      "source": "左前方车辆",
+      "target": "违规变道",
+      "reason": "可能"
+    },
+    {
+      "source": "右前方车辆",
+      "target": "违规变道",
+      "reason": "可能"
+    },
+    {
+      "source": "行人/非机动车",
+      "target": "行人/非机动车横穿马路",
+      "reason": "可能"
+    },
+    {
+      "source": "行人/非机动车",
+      "target": "闯红灯",
+      "reason": "可能"
+    },
+    {
+      "source": "无交互对象",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "无交互对象",
+      "target": "偏离车道",
+      "reason": "可能"
+    },
+    {
+      "source": "急变道切入",
+      "target": "跟车距离过近",
+      "reason": "导致"
+    },
+    {
+      "source": "紧急制动",
+      "target": "响应不及时",
+      "reason": "导致"
+    },
+    {
+      "source": "行人/非机动车横穿马路",
+      "target": "未礼让行人/非机动车",
+      "reason": "导致"
+    },
+    {
+      "source": "急变道切入",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "急变道切入",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "急变道切入",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "车辆失控",
+      "target": "侧翻",
+      "reason": "导致"
+    },
+    {
+      "source": "车辆失控",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "车辆失控",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "车辆失控",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "违规变道",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "违规变道",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "未按照车道行驶",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "未按照车道行驶",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "违规转弯",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "违规转弯",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "行人/非机动车横穿马路",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "闯红灯",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "闯红灯",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "闯红灯",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "跟车距离过近",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "响应不及时",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "响应不及时",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "未礼让行人/非机动车",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "超速行驶",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "超速行驶",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "偏离车道",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "偏离车道",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "偏离车道",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "低速行驶",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "无交互对象",
+      "target": "侧翻",
+      "reason": "导致"
+    },
+    {
+      "source": "无交互对象",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "城市路段",
+      "target": "拥堵",
+      "reason": "可能"
+    },
+    {
+      "source": "城市路段",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "城市路段",
+      "target": "行人/非机动车",
+      "reason": "伴随"
+    },
+    {
+      "source": "城市路段",
+      "target": "急变道切入",
+      "reason": "可能"
+    },
+    {
+      "source": "快速路",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "快速路",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "快速路",
+      "target": "跟车距离过近",
+      "reason": "可能"
+    },
+    {
+      "source": "快速路",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "高速公路",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "跟车距离过近",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "紧急制动",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "高速公路",
+      "target": "车辆失控",
+      "reason": "导致"
+    },
+    {
+      "source": "高速公路",
+      "target": "侧翻",
+      "reason": "导致"
+    },
+    {
+      "source": "公路",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "公路",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "公路",
+      "target": "车辆失控",
+      "reason": "可能"
+    },
+    {
+      "source": "公路",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "行人/非机动车",
+      "reason": "伴随"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "违规转弯",
+      "reason": "可能"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "闯红灯",
+      "reason": "可能"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "紧急制动",
+      "reason": "可能"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "急变道切入",
+      "reason": "可能"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "违规变道",
+      "reason": "可能"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "车辆失控",
+      "reason": "导致"
+    },
+    {
+      "source": "交织区",
+      "target": "急变道切入",
+      "reason": "加剧"
+    },
+    {
+      "source": "交织区",
+      "target": "违规变道",
+      "reason": "加剧"
+    },
+    {
+      "source": "交织区",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "交织区",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "交织区",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "桥梁",
+      "target": "车辆失控",
+      "reason": "可能"
+    },
+    {
+      "source": "桥梁",
+      "target": "撞固定物",
+      "reason": "可能"
+    },
+    {
+      "source": "桥梁",
+      "target": "追尾",
+      "reason": "可能"
+    },
+    {
+      "source": "其他道路",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "其他道路",
+      "target": "车辆失控",
+      "reason": "可能"
+    },
+    {
+      "source": "直线段",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "直线段",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "直线段",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "曲线段",
+      "target": "车辆失控",
+      "reason": "加剧"
+    },
+    {
+      "source": "曲线段",
+      "target": "偏离车道",
+      "reason": "导致"
+    },
+    {
+      "source": "曲线段",
+      "target": "侧翻",
+      "reason": "导致"
+    },
+    {
+      "source": "曲线段",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "其他线形",
+      "target": "存在视线遮挡物",
+      "reason": "可能"
+    },
+    {
+      "source": "其他线形",
+      "target": "响应不及时",
+      "reason": "可能"
+    },
+    {
+      "source": "其他线形",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "单车道",
+      "target": "道路宽度不足",
+      "reason": "可能"
+    },
+    {
+      "source": "单车道",
+      "target": "跟车距离过近",
+      "reason": "可能"
+    },
+    {
+      "source": "单车道",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "双车道",
+      "target": "违规变道",
+      "reason": "可能"
+    },
+    {
+      "source": "双车道",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "双车道",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "多车道",
+      "target": "急变道切入",
+      "reason": "加剧"
+    },
+    {
+      "source": "多车道",
+      "target": "违规变道",
+      "reason": "加剧"
+    },
+    {
+      "source": "多车道",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "多车道",
+      "target": "刮蹭",
+      "reason": "导致"
+    },
+    {
+      "source": "无中央隔离带",
+      "target": "正面碰撞",
+      "reason": "加剧"
+    },
+    {
+      "source": "无中央隔离带",
+      "target": "未按照车道行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "无中央隔离带",
+      "target": "正面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "有中央隔离带",
+      "target": "正面碰撞",
+      "reason": "减轻"
+    },
+    {
+      "source": "有中央隔离带",
+      "target": "未按照车道行驶",
+      "reason": "减轻"
+    },
+    {
+      "source": "缺少防撞护栏",
+      "target": "撞固定物",
+      "reason": "加剧"
+    },
+    {
+      "source": "缺少防撞护栏",
+      "target": "侧翻",
+      "reason": "加剧"
+    },
+    {
+      "source": "缺少防撞护栏",
+      "target": "车辆失控",
+      "reason": "导致"
+    },
+    {
+      "source": "存在防撞护栏",
+      "target": "撞固定物",
+      "reason": "减轻"
+    },
+    {
+      "source": "存在防撞护栏",
+      "target": "侧翻",
+      "reason": "减轻"
+    },
+    {
+      "source": "有信号控制",
+      "target": "闯红灯",
+      "reason": "可能"
+    },
+    {
+      "source": "有信号控制",
+      "target": "行人/非机动车横穿马路",
+      "reason": "可能"
+    },
+    {
+      "source": "有信号控制",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "有信号控制",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "无信号控制",
+      "target": "行人/非机动车横穿马路",
+      "reason": "加剧"
+    },
+    {
+      "source": "无信号控制",
+      "target": "违规转弯",
+      "reason": "可能"
+    },
+    {
+      "source": "无信号控制",
+      "target": "侧面碰撞",
+      "reason": "导致"
+    },
+    {
+      "source": "无信号控制",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "有信号控制",
+      "reason": "可能"
+    },
+    {
+      "source": "城市交叉口",
+      "target": "无信号控制",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "多车道",
+      "reason": "可能"
+    },
+    {
+      "source": "快速路",
+      "target": "多车道",
+      "reason": "可能"
+    },
+    {
+      "source": "城市路段",
+      "target": "多车道",
+      "reason": "可能"
+    },
+    {
+      "source": "公路",
+      "target": "双车道",
+      "reason": "可能"
+    },
+    {
+      "source": "其他道路",
+      "target": "单车道",
+      "reason": "可能"
+    },
+    {
+      "source": "交织区",
+      "target": "多车道",
+      "reason": "可能"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "曲线段",
+      "reason": "可能"
+    },
+    {
+      "source": "上/下匝道",
+      "target": "直线段",
+      "reason": "可能"
+    },
+    {
+      "source": "桥梁",
+      "target": "直线段",
+      "reason": "可能"
+    },
+    {
+      "source": "桥梁",
+      "target": "曲线段",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "有中央隔离带",
+      "reason": "可能"
+    },
+    {
+      "source": "公路",
+      "target": "无中央隔离带",
+      "reason": "可能"
+    },
+    {
+      "source": "其他道路",
+      "target": "无中央隔离带",
+      "reason": "可能"
+    },
+    {
+      "source": "桥梁",
+      "target": "存在防撞护栏",
+      "reason": "可能"
+    },
+    {
+      "source": "高速公路",
+      "target": "存在防撞护栏",
+      "reason": "可能"
+    },
+    {
+      "source": "其他道路",
+      "target": "缺少防撞护栏",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "存在视线遮挡物",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "响应不及时",
+      "reason": "导致"
+    },
+    {
+      "source": "夜间",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "跟车距离过近",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "车辆失控",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "追尾",
+      "reason": "导致"
+    },
+    {
+      "source": "夜间",
+      "target": "撞固定物",
+      "reason": "导致"
+    },
+    {
+      "source": "夜间",
+      "target": "碰撞非机动车/行人",
+      "reason": "导致"
+    },
+    {
+      "source": "夜间",
+      "target": "偏离车道",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "行人/非机动车横穿马路",
+      "reason": "可能"
+    },
+    {
+      "source": "夜间",
+      "target": "未礼让行人/非机动车",
+      "reason": "可能"
+    },
+    {
+      "source": "白天",
+      "target": "拥堵",
+      "reason": "可能"
+    },
+    {
+      "source": "白天",
+      "target": "正常交通流",
+      "reason": "可能"
+    },
+    {
+      "source": "白天",
+      "target": "行人/非机动车",
+      "reason": "伴随"
+    },
+    {
+      "source": "白天",
+      "target": "超速行驶",
+      "reason": "可能"
+    },
+    {
+      "source": "白天",
+      "target": "响应不及时",
+      "reason": "减轻"
+    }
+  ]
+}
